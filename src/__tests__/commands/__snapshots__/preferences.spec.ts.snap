@@ -6,28 +6,77 @@ exports[`commands/preferences should prompt and store preferences 1`] = `
     Array [
       Array [
         Object {
-          "default": "foo",
-          "message": "Choose foo",
-          "name": "foo",
+          "default": "GITHUB_TOKEN",
+          "message": "Choose github token env var",
+          "name": "githubTokenEnvVar",
           "type": "input",
+        },
+      ],
+    ],
+    Array [
+      Array [
+        Object {
+          "default": false,
+          "message": "Do you want to reset your github organisations list?",
+          "name": "resetOrganisations",
+          "suffix": "",
+          "type": "confirm",
+          "when": false,
         },
         Object {
           "default": true,
-          "message": "Enable bar",
-          "name": "bar",
+          "message": "Do you want to add github organisations?",
+          "name": "addOrganisations",
           "type": "confirm",
         },
+      ],
+    ],
+    Array [
+      Array [
         Object {
-          "default": 42,
-          "message": "Choose baz",
-          "name": "baz",
-          "type": "number",
+          "message": "Add a github organisation",
+          "name": "organisation",
+          "suffix": "",
+          "type": "input",
+          "validate": [Function],
+        },
+        Object {
+          "message": "Add an other organisation?",
+          "name": "addMoreOrganisation",
+          "type": "confirm",
         },
       ],
-      Object {},
+    ],
+    Array [
+      Array [
+        Object {
+          "message": "Add a github organisation",
+          "name": "organisation",
+          "suffix": " ([33mboilerz[39m)",
+          "type": "input",
+          "validate": [Function],
+        },
+        Object {
+          "message": "Add an other organisation?",
+          "name": "addMoreOrganisation",
+          "type": "confirm",
+        },
+      ],
     ],
   ],
   "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
     Object {
       "type": "return",
       "value": Promise {},

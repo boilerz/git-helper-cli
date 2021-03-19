@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "my-command": "cli.js"
+    "git-helper": "cli.js"
   },
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",

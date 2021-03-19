@@ -14,7 +14,7 @@ export default function run(args: string[]): void {
   updateNotifier({ pkg: readPkgUp.sync()?.packageJson }).notify();
   const argv = yargs(args);
 
-  argv.scriptName('my-command');
+  argv.scriptName('git-helper');
   argv.command(preferencesCommand);
   (argv as Argv<YoArguments>).command(yoCommand);
 

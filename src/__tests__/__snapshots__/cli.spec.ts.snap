@@ -3,11 +3,11 @@
 exports[`cli should setup cli 1`] = `
 Array [
   Array [
-    "my-command <command>
+    "git-helper <command>
 
 Commands:
-  my-command preferences        Set preferences                     [aliases: p]
-  my-command yo <name> [color]  Say yo                          [aliases: hello]
+  git-helper preferences        Set preferences                     [aliases: p]
+  git-helper yo <name> [color]  Say yo                          [aliases: hello]
 
 Options:
   --version  Show version number                                       [boolean]

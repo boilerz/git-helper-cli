@@ -1,16 +1,14 @@
 import Conf from 'conf';
 
 export interface Preferences {
-  foo: string;
-  bar: boolean;
-  baz: number;
+  githubTokenEnvVar: string;
+  organisations: string[];
 }
 
 const preferencesStore = new Conf<Preferences>({
   defaults: {
-    foo: 'foo',
-    bar: true,
-    baz: 42,
+    githubTokenEnvVar: 'GITHUB_TOKEN',
+    organisations: [],
   },
 });
 
