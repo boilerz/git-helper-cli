@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`commands/preferences should prompt and store preferences 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Array [
+        Object {
+          "default": "foo",
+          "message": "Choose foo",
+          "name": "foo",
+          "type": "input",
+        },
+        Object {
+          "default": true,
+          "message": "Enable bar",
+          "name": "bar",
+          "type": "confirm",
+        },
+        Object {
+          "default": 42,
+          "message": "Choose baz",
+          "name": "baz",
+          "type": "number",
+        },
+      ],
+      Object {},
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;

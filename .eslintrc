@@ -1,0 +1,6 @@
+{
+  "extends": "@boilerz/eslint-config",
+  "rules": {
+    "no-console": "off"
+  }
+}

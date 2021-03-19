@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cli should setup cli 1`] = `
+Array [
+  Array [
+    "my-command <command>
+
+Commands:
+  my-command preferences        Set preferences                     [aliases: p]
+  my-command yo <name> [color]  Say yo                          [aliases: hello]
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]",
+  ],
+  Array [],
+  Array [
+    "Not enough non-option arguments: got 0, need at least 1",
+  ],
+]
+`;
