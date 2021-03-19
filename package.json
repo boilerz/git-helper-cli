@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "my-command": "cli.js"
+    "git-helper": "cli.js"
   },
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -41,12 +41,15 @@
     "node-notifier": "^9.0.0"
   },
   "dependencies": {
+    "@octokit/openapi-types": "^5.3.2",
+    "@octokit/rest": "^18.3.5",
     "chalk": "^4.1.0",
     "conf": "^9.0.2",
     "execa": "^5.0.0",
     "inquirer": "^8.0.0",
     "ora": "^5.4.0",
     "read-pkg-up": "^7.0.1",
+    "type-fest": "^0.21.3",
     "update-notifier": "^5.1.0",
     "yargs": "^16.2.0"
   }
