@@ -1,10 +1,10 @@
 {
-  "name": "@gh_user/gh_repo_name",
+  "name": "@boilerz/git-helper-cli",
   "version": "0.0.1",
   "main": "src/index.ts",
-  "repository": "git@github.com:gh_user/gh_repo_name.git",
-  "author": "gh_user",
-  "description": "gh_short_description",
+  "repository": "git@github.com:boilerz/git-helper-cli.git",
+  "author": "boilerz",
+  "description": "Git helper cli",
   "license": "MIT",
   "private": false,
   "bin": {
@@ -13,7 +13,6 @@
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "typecheck": "tsc",
-    "custom": "customBoilerplate",
     "build": "buildTSPackage",
     "test": "FORCE_COLOR=0 jest --coverage",
     "codecov": "codecov",

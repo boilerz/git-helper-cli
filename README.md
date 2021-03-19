@@ -1,32 +1,17 @@
-# @boilerz/boilerplate-cli
+# @boilerz/git-helper-cli
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/boilerz/boilerplate-cli/blob/master/LICENSE)
-[![GH CI Action](https://github.com/boilerz/boilerplate-cli/workflows/CI/badge.svg)](https://github.com/boilerz/boilerplate-cli/actions?query=workflow:CI)
-[![codecov](https://codecov.io/gh/boilerz/boilerplate-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/boilerz/boilerplate-cli)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/git-helper-cli)](https://www.npmjs.com/package/@boilerz/git-helper-cli)
+[![GH CI Action](https://github.com/boilerz/git-helper-cli/workflows/CI/badge.svg)](https://github.com/boilerz/git-helper-cli/actions?query=workflow:CI)
+[![codecov](https://codecov.io/gh/boilerz/git-helper-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/boilerz/git-helper-cli)
 
-> Boilerplate lib.
+> Git helper cli
 
-### Setup
-
-1. Use as template, then after pulling the repo:
+### Install
 
 ```bash
-yarn install
-yarn custom
+npm i -g @boilerz/git-helper-cli 
 ```
 
-2. Add `CODECOV_TOKEN` as a secret.
+### Usage
 
-3. Update `my-command` name on [package.json](./package.json) and on [src/cli.ts](./src/cli.ts):
-
-```json
-{
-  "bin": {
-    "my-command": "cli.js"
-  }
-}
-```
-
-```typescript
-  argv.scriptName('my-command');
-```
+// ...
