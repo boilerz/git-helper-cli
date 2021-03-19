@@ -7,8 +7,8 @@ import { Argv } from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import yargs from 'yargs/yargs';
 
+import mergeCommand, { MergeArguments } from './commands/merge';
 import preferencesCommand from './commands/preferences';
-import yoCommand, { YoArguments } from './commands/yo';
 
 export default function run(args: string[]): void {
   updateNotifier({ pkg: readPkgUp.sync()?.packageJson }).notify();
@@ -16,7 +16,7 @@ export default function run(args: string[]): void {
 
   argv.scriptName('git-helper');
   argv.command(preferencesCommand);
-  (argv as Argv<YoArguments>).command(yoCommand);
+  (argv as Argv<MergeArguments>).command(mergeCommand);
 
   argv.demandCommand().detectLocale(false).help().parse();
 }

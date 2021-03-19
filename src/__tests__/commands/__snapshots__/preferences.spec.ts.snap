@@ -52,7 +52,7 @@ exports[`commands/preferences should prompt and store preferences 1`] = `
         Object {
           "message": "Add a github organisation",
           "name": "organisation",
-          "suffix": " ([33mboilerz[39m)",
+          "suffix": " (boilerz)",
           "type": "input",
           "validate": [Function],
         },

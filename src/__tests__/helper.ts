@@ -1,4 +1,7 @@
+import { MaybeMockedDeep } from 'ts-jest/dist/utils/testing';
 import yargs, { Argv, CommandModule } from 'yargs';
+
+import * as githubHelper from '../helper/github';
 
 export async function runCommand(
   command: CommandModule<any, any>,
@@ -36,4 +39,16 @@ export function displayOutput(
       reject(err);
     }
   });
+}
+
+export function mockOctokit(mockedOctokit: MaybeMockedDeep<unknown>) {
+  const octokitInstance = {
+    search: {
+      issuesAndPullRequests: jest.fn(),
+    },
+  };
+  // @ts-ignore mock
+  mockedOctokit.Octokit.mockReturnValue(octokitInstance);
+  githubHelper.setup();
+  return octokitInstance;
 }
