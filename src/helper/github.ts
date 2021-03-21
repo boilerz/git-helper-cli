@@ -115,7 +115,7 @@ export async function getOpenedPullRequests(): Promise<
   IssueSearchResultItem[]
 > {
   const organisationNames = getUserOrganisationNames();
-  if (organisationNames.length) return [];
+  if (!organisationNames.length) return [];
 
   const organisationFilter = organisationNames
     .map((name) => `user:${name}`)

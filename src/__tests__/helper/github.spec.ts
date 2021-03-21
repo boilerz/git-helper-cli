@@ -54,7 +54,7 @@ describe('helper/github', () => {
 
       await githubHelper.mergeMergeablePullRequests();
 
-      expect(issuesAndPullRequestsSpy).toHaveBeenCalledTimes(1);
+      expect(issuesAndPullRequestsSpy).not.toHaveBeenCalled();
       expect(logSpy.mock.calls).toMatchInlineSnapshot(`
         Array [
           Array [
