@@ -11,7 +11,9 @@ import mergeCommand, { MergeArguments } from './commands/merge';
 import preferencesCommand from './commands/preferences';
 
 export default function run(args: string[]): void {
-  updateNotifier({ pkg: readPkgUp.sync()?.packageJson }).notify();
+  updateNotifier({
+    pkg: readPkgUp.sync({ cwd: process.cwd() })?.packageJson,
+  }).notify();
   const argv = yargs(args);
 
   argv.scriptName('git-helper');
