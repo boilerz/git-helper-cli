@@ -1,3 +1,3 @@
 {
-  "extends": "@boilerz/tsconfig"
+  "extends": "@boilerz/tsconfig-cli"
 }
