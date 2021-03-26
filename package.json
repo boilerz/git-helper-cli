@@ -28,7 +28,7 @@
     "@types/inquirer": "^7.3.1",
     "@types/jest": "^26.0.21",
     "@types/update-notifier": "^5.0.0",
-    "@types/yargs": "^16.0.0",
+    "@types/yargs": "^16.0.1",
     "codecov": "^3.8.1",
     "eslint": "^7.22.0",
     "jest": "^26.6.3",
