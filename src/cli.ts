@@ -12,7 +12,7 @@ import preferencesCommand from './commands/preferences';
 
 export default function run(args: string[]): void {
   updateNotifier({
-    pkg: readPkgUp.sync({ cwd: process.cwd() })?.packageJson,
+    pkg: readPkgUp.sync({ cwd: __dirname })?.packageJson,
   }).notify();
   const argv = yargs(args);
 
