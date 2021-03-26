@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@octokit/openapi-types": "^6.0.0",
-    "@octokit/rest": "^18.4.0",
+    "@octokit/rest": "^18.5.0",
     "chalk": "^4.1.0",
     "conf": "^9.0.2",
     "execa": "^5.0.0",
