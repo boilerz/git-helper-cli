@@ -43,7 +43,7 @@
   "dependencies": {
     "@octokit/openapi-types": "^6.1.1",
     "@octokit/rest": "^18.5.2",
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.1",
     "conf": "^10.0.1",
     "execa": "^5.0.0",
     "inquirer": "^8.0.0",
