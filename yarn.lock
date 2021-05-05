@@ -618,10 +618,15 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-5.3.2.tgz#b8ac43c5c3d00aef61a34cf744e315110c78deb4"
   integrity sha512-NxF1yfYOUO92rCx3dwvA2onF30Vdlg7YUkMVXkeptqpzA3tRLplThhFleV/UKWFgh7rpKu1yYRbvNDUtzSopKA==
 
-"@octokit/openapi-types@^6.1.1", "@octokit/openapi-types@^6.2.1":
+"@octokit/openapi-types@^6.1.1":
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-6.2.1.tgz#5830395622ca0d8e945532c7ace722aec3670508"
   integrity sha512-rSyuVb2zVwEbWpl1FJzVziyDfvEhNcvIsp6QxmEJkpiFuPfcZ4LwXz2/fhVdVC8Xy7BCugUQr7/ISdhYwgs3zQ==
+
+"@octokit/openapi-types@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-7.0.0.tgz#0f6992db9854af15eca77d71ab0ec7fad2f20411"
+  integrity sha512-gV/8DJhAL/04zjTI95a7FhQwS6jlEE0W/7xeYAzuArD0KVAVWDLP2f3vi98hs3HLTczxXdRK/mF0tRoQPpolEw==
 
 "@octokit/plugin-paginate-rest@^2.6.2":
   version "2.13.2"
