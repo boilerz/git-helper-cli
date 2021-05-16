@@ -5,7 +5,8 @@ import ora from 'ora';
 
 import preferencesStore from './preferencesStore';
 
-export type IssueSearchResultItem = components['schemas']['issue-search-result-item'];
+export type IssueSearchResultItem =
+  components['schemas']['issue-search-result-item'];
 export type PullRequest = components['schemas']['pull-request'];
 const DEFAULT_PER_PAGE = 100;
 let octokit: Octokit;

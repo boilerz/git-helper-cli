@@ -36,9 +36,8 @@ export default async function handler(): Promise<void> {
     organisations: await collectOrganisations(),
   };
 
-  (Object.keys(
-    preferencesAnswers,
-  ) as (keyof Preferences)[]).forEach((answerKey) =>
-    preferencesStore.set(answerKey, preferencesAnswers[answerKey]),
+  (Object.keys(preferencesAnswers) as (keyof Preferences)[]).forEach(
+    (answerKey) =>
+      preferencesStore.set(answerKey, preferencesAnswers[answerKey]),
   );
 }
