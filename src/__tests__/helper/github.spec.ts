@@ -44,13 +44,12 @@ describe('helper/github', () => {
       const octokitInstance = mockOctokit(mockedOctokit);
 
       const logSpy = jest.spyOn(console, 'log');
-      const issuesAndPullRequestsSpy = octokitInstance.search.issuesAndPullRequests.mockResolvedValue(
-        {
+      const issuesAndPullRequestsSpy =
+        octokitInstance.search.issuesAndPullRequests.mockResolvedValue({
           data: {
             items: [],
           },
-        },
-      );
+        });
 
       await githubHelper.mergeMergeablePullRequests();
 
