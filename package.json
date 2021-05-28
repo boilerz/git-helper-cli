@@ -41,7 +41,7 @@
     "node-notifier": "^9.0.0"
   },
   "dependencies": {
-    "@octokit/openapi-types": "^7.0.0",
+    "@octokit/openapi-types": "^7.2.3",
     "@octokit/rest": "^18.5.3",
     "chalk": "^4.1.1",
     "conf": "^10.0.1",
