@@ -337,10 +337,10 @@
   dependencies:
     "@tsconfig/node10" "^1.0.7"
 
-"@boilerz/tsconfig-cli@^1.4.11":
-  version "1.4.11"
-  resolved "https://registry.yarnpkg.com/@boilerz/tsconfig-cli/-/tsconfig-cli-1.4.11.tgz#faac67f1652d6d78bc27e39f36ffb4a291dd8df8"
-  integrity sha512-dgQ/bE/I7GZM/xwKuhv/eCg6IsA/qk57/KjCMPsuYXOfcT2ACrczsKkDHzvfYNTITkeMjk4wa935dP5iRpYvFA==
+"@boilerz/tsconfig-cli@^1.4.12":
+  version "1.4.12"
+  resolved "https://registry.yarnpkg.com/@boilerz/tsconfig-cli/-/tsconfig-cli-1.4.12.tgz#241bdbf7ba8f935b8c5368dd3b087364fc846ac4"
+  integrity sha512-Q7LOKRbTmrwG2JBeGsgSpHfE/uS/MrvnAt3foKWci4TS5A4Q87PbjhvaJVPEpTtTDrrECMNOJpq5R4Vw0mK5ig==
   dependencies:
     "@tsconfig/node10" "^1.0.7"
 
