@@ -23,7 +23,7 @@
     "@boilerz/eslint-config": "^2.0.36",
     "@boilerz/jest-config": "^1.0.9",
     "@boilerz/prettier-config": "^1.0.4",
-    "@boilerz/tsconfig-cli": "^1.4.12",
+    "@boilerz/tsconfig-cli": "^1.4.13",
     "@boilerz/tsconfig-cli-production": "^1.4.13",
     "@types/inquirer": "^8.1.1",
     "@types/jest": "^27.0.1",
