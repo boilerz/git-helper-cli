@@ -25,7 +25,7 @@
     "@boilerz/prettier-config": "^1.0.4",
     "@boilerz/tsconfig-cli": "^1.4.13",
     "@boilerz/tsconfig-cli-production": "^1.4.13",
-    "@types/inquirer": "^8.1.1",
+    "@types/inquirer": "^8.1.2",
     "@types/jest": "^27.0.1",
     "@types/update-notifier": "^5.1.0",
     "@types/yargs": "^17.0.2",
