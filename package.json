@@ -51,6 +51,6 @@
     "read-pkg-up": "^7.0.1",
     "type-fest": "^2.3.2",
     "update-notifier": "^5.1.0",
-    "yargs": "^17.1.1"
+    "yargs": "^17.3.0"
   }
 }
