@@ -1,13 +1,13 @@
-import type { components } from '@octokit/openapi-types';
-import { Octokit } from '@octokit/rest';
+import { Octokit, RestEndpointMethodTypes } from '@octokit/rest';
 import chalk from 'chalk';
 import ora from 'ora';
 
 import preferencesStore from './preferencesStore';
 
-export type IssueSearchResultItem =
-  components['schemas']['issue-search-result-item'];
-export type PullRequest = components['schemas']['pull-request'];
+export type IssueSearchResultItems =
+  RestEndpointMethodTypes['search']['issuesAndPullRequests']['response']['data']['items'];
+export type PullRequest =
+  RestEndpointMethodTypes['pulls']['get']['response']['data'];
 const DEFAULT_PER_PAGE = 100;
 let octokit: Octokit;
 
@@ -112,9 +112,7 @@ export async function mergePullRequest(
   }
 }
 
-export async function getOpenedPullRequests(): Promise<
-  IssueSearchResultItem[]
-> {
+export async function getOpenedPullRequests(): Promise<IssueSearchResultItems> {
   const organisationNames = getUserOrganisationNames();
   if (!organisationNames.length) return [];
 
