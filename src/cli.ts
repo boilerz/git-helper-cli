@@ -24,4 +24,4 @@ export default function run(args: string[]): void {
 }
 
 /* istanbul ignore if */
-if (!module.parent) run(hideBin(process.argv));
+if (require.main === module) run(hideBin(process.argv));
