@@ -107,7 +107,7 @@ export async function mergePullRequest(
     );
   } catch (err) {
     mergeSpinner.fail(
-      `Fail to merge ${owner}/${repo}/${number} => ${err.message}`,
+      `Fail to merge ${owner}/${repo}/${number} => ${(err as Error).message}`,
     );
   }
 }
