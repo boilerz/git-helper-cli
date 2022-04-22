@@ -48,7 +48,7 @@
     "execa": "^6.1.0",
     "inquirer": "^8.2.2",
     "ora": "^5.4.1",
-    "read-pkg-up": "^7.0.1",
+    "read-pkg-up": "^9.1.0",
     "type-fest": "^2.12.2",
     "update-notifier": "^5.1.0",
     "yargs": "^17.4.1"
