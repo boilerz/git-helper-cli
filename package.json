@@ -24,7 +24,7 @@
     "@boilerz/jest-config": "^1.0.11",
     "@boilerz/prettier-config": "^1.0.4",
     "@boilerz/tsconfig-cli": "^1.4.15",
-    "@boilerz/tsconfig-cli-production": "^1.4.14",
+    "@boilerz/tsconfig-cli-production": "^1.4.15",
     "@types/inquirer": "^8.2.1",
     "@types/jest": "^27.4.1",
     "@types/update-notifier": "^5.1.0",
