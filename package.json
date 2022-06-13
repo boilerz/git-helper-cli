@@ -1,6 +1,6 @@
 {
   "name": "@boilerz/git-helper-cli",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "main": "src/index.ts",
   "repository": "git@github.com:boilerz/git-helper-cli.git",
   "author": "boilerz",
