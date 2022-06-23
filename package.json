@@ -50,7 +50,7 @@
     "ora": "^5.4.1",
     "read-pkg-up": "^7.0.1",
     "type-fest": "^2.13.1",
-    "update-notifier": "^5.1.0",
+    "update-notifier": "^6.0.0",
     "yargs": "^17.5.1"
   }
 }
