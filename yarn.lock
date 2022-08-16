@@ -1153,12 +1153,12 @@
     "@octokit/types" "^6.0.3"
     universal-user-agent "^6.0.0"
 
-"@octokit/openapi-types@^12.11.0", "@octokit/openapi-types@^12.7.0":
+"@octokit/openapi-types@^12.7.0":
   version "12.11.0"
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-12.11.0.tgz#da5638d64f2b919bca89ce6602d059f1b52d3ef0"
   integrity sha512-VsXyi8peyRq9PqIz/tpqiL2w3w80OgVMwBHltTml3LmVvXiphgeqmY9mvBw9Wu7e0QWk/fqD37ux8yP5uVekyQ==
 
-"@octokit/openapi-types@^13.0.0":
+"@octokit/openapi-types@^13.0.0", "@octokit/openapi-types@^13.0.1":
   version "13.0.1"
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.0.1.tgz#f655810f0dc0547b771526fea171acffbc7bd4a8"
   integrity sha512-40U39YoFBhJhmkAg6gbJnh9U8aueJwCuiTW0mXY2pNl9/+E7dUxXiMPOrIUGT12XqLinroaXYA3FUiw3BMeNfg==
