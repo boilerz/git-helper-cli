@@ -1158,10 +1158,10 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-12.11.0.tgz#da5638d64f2b919bca89ce6602d059f1b52d3ef0"
   integrity sha512-VsXyi8peyRq9PqIz/tpqiL2w3w80OgVMwBHltTml3LmVvXiphgeqmY9mvBw9Wu7e0QWk/fqD37ux8yP5uVekyQ==
 
-"@octokit/openapi-types@^13.0.0", "@octokit/openapi-types@^13.1.0":
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.1.0.tgz#30459b45e6dd388d48d72de166f2f08ee8ece5b6"
-  integrity sha512-Z7vzLqfTkoVQyoy/2iQla1N2I4Vav2wi4JbZK8QxIYAfBimhuflosFxmsqw5LTH7DkdNW46ZYpAcqJf0XaS8SQ==
+"@octokit/openapi-types@^13.0.0", "@octokit/openapi-types@^13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.2.0.tgz#4c2e5c2a0da0a7190f96ee131ee0d27b39c37e1f"
+  integrity sha512-1BhjsVrCe2cyE36Rorpeq331bcYzdb9ksCpkFdAN6RVtW67YdO3Pl4YXDC5dF2D1ia76MssJdn5RV+Gj9Fu7dQ==
 
 "@octokit/openapi-types@^5.3.2":
   version "5.3.2"
