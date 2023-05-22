@@ -1507,10 +1507,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/update-notifier@^6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@types/update-notifier/-/update-notifier-6.0.2.tgz#19f60ebbb2b437d9fc971b032f7c625892c716ec"
-  integrity sha512-/OKZaYpzHqBO9D+IzqAB7VfC/fx+xl/CM1upD6D56QPNyvAsFULAVLfjlBIGCl1ibU1rKqZV45xOj018WqHhlA==
+"@types/update-notifier@^6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@types/update-notifier/-/update-notifier-6.0.4.tgz#fb8c6d739ea16066077fe27bb48af000d23097c2"
+  integrity sha512-CiKJPSmt/3F4sVnkQTjnP/onKtTJxRkib6Gvw4XESM8FNsHlvRnBNqU5qL0IQmqjtKnz5e9E6Y7xChOpvxFzKg==
   dependencies:
     "@types/configstore" "*"
     boxen "^7.0.0"
