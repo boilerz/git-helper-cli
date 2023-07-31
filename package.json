@@ -47,7 +47,7 @@
     "conf": "^10.2.0",
     "execa": "^7.1.1",
     "inquirer": "^8.2.4",
-    "ora": "^5.4.1",
+    "ora": "^7.0.0",
     "read-pkg-up": "^7.0.1",
     "type-fest": "^3.13.0",
     "update-notifier": "^6.0.2",
